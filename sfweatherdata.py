@@ -37,4 +37,12 @@ print(short_desc)
 print(temp)
 
 
+# extract the title attribute from the img tag.
+
+img = tonight.find("img")
+
+desc = img["title"]
+
+print(desc)
+
 
